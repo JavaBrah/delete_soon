@@ -5,9 +5,11 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
   <>
-    <Header />
-    <Outlet />
-    <Footer />
+    <body className="bg-gray-900 text-gray-100">
+      <Header />
+      <Outlet />
+      <Footer />
+    </body>
   </>
   );  
 }

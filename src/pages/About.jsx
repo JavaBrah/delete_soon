@@ -1,7 +1,7 @@
 export default function About(){
     return(
         <>
-            <p>This is the about page</p>
+            <p className="flex justify-center">This is the about page</p>
         </>
     );
 }

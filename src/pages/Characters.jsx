@@ -13,14 +13,17 @@ export default function Characters(){
             setCharacterData(chars);
             setValidResponse(true)
             setErr(false);
+            
         } catch(error){
             setValidResponse(false);
             setErr(true)
             console.error()
         }
-    }
+    };
+
     useEffect(() => {
         getCharacterData();
+        
     }, [])
     
     
@@ -29,7 +32,8 @@ export default function Characters(){
         <>
             <div>
                 <p>Characters page</p>
+                {console.log(characterData)}
             </div>
         </>
     );
-}
+};

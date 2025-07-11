@@ -26,6 +26,14 @@ export default function Header() {
                 About
               </Link>
             </li>
+            <li>
+              <Link
+                to="/Characters"
+                className="text-fuchsia-400 hover:text-white transition duration-200"
+              >
+                Characters
+              </Link>
+            </li>
           </ul>
         </nav>
       </div>
